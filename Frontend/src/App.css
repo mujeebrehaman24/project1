@@ -1,0 +1,110 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130vh;
+  background-color: #F6F5F5;
+}
+
+.cont {
+  width: 60%;
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.login-form {
+  width: 50%; 
+  margin-top: 5%;
+  padding: 0 20px; 
+  display: flex;
+  flex-direction: column;
+
+  h4{
+      text-align: center;
+      color: darkgrey;
+  }
+  
+}
+
+.login-form button {
+  margin: 15px auto 10px;
+}
+.login-form img{
+ 
+  object-fit: cover;
+  width:20%;
+  background-repeat: no-repeat;
+  margin-left: 35%;
+  
+  
+}
+.cont-img {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+   padding-left: 2%;
+   padding-right: 2%;
+  background-color: #FADED3;
+}
+.bt{
+  background-color:#7945D4;
+  color: white;
+  
+}
+.bt:hover{
+  background-color: #FC5E2E;
+} 
+.cont-img img {
+  width: 100%;
+  height: 83%;
+  border-radius: 20px;
+   margin-top: 13%;  
+}
+
+.Home{
+  background-color: #FAFAFA;
+
+  width: 100%;
+}
+.t h2{
+  font-size: 200%; 
+  text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+@media screen and (max-width: 665px){
+  .t h2 {
+      font-size: 150%; 
+    }
+}
+@media screen and (max-width:500px) {
+  .t h2 {
+      font-size: 120%; 
+    }
+}
+@media screen and (max-width:400px) {
+  .t h2 {
+      font-size: 90%; 
+    }
+}
+
+@media screen and (max-width:540px) {
+  .cont-img {
+      display: none;
+  }
+  .login-form{
+      width: 100%;
+  } 
+}
